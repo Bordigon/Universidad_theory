@@ -1,0 +1,25 @@
+Esta carpeta contiene practices correspondientes a los vídeos de esta playlist
+https://www.youtube.com/playlist?list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF
+
+
+compilación en 2 pasos
+gcc -c archive.c //crea objetos tipo .o
+gcc -o programa1.o archive2.o -o programa_final
+
+existen los archivos headers (.h), que son como una api de los métodos de otro archivo
+----------------------------------------------------------
+funciones.h:
+
+#ifndef FUNCIONES_H
+#define FUNCIONES_H
+	//ac'a van los prototipos de las funciones
+#endif
+----------------------------------------------------------
+archivos.c:
+
+#include "funciones.h"
+
+los headers nos e incluyen en ning'un momento de la compilaci'on basta con que est'en en la misma carpeta que los archivos .c
+
+
+//-ansi -pedantic -Wall -Wextra -Werror

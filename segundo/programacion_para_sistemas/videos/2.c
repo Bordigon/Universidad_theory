@@ -1,0 +1,1 @@
+//variables#include <stdio.h>#include <stdlib.h>#define PI 3.1416int main(){	int x,y,z;		x = 2;	y = 3;	z = y^x;	printf("%i elevado a %i es igual a: %i.\n", x,y,z);	//scanf("%i", &y);	//printf("El valor de y es: %i.\n", y);		system("pause");		return 0;}
