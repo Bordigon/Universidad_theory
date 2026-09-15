@@ -1,0 +1,9 @@
+En este paquete se incluye material complementario usado en la clase de presentación del tema de introducción:
+
+- prompting.pdf: ejemplos de "prompts" que se pueden realizar a un modelo de IA (por ejemplo, al modo IA de la búsqueda de Google) para profundizar en algunos aspectos generales relacionados con los sistemas operativos.
+          
+- arranque_BIOS_EFI.pdf: explica las diferencias entre el modelo de arranque tradicional basado en BIOS, ya obsoleto, y el actual basado en UEFI.
+
+- historia_SSOO.pdf: revisión de la historia de los SS.OO
+
+- syscall: ejemplo de código ensamblador que realiza una llamada al sistema. 
