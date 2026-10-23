@@ -1,0 +1,20 @@
+int enAlgo(std::string p){}
+	-se encarga de ver el estado de comentario y cadena, y cambiar variables globales
+	-se llamada para confirmer si ya se acab'o la cadena o si se est'a buscando el símbolo *
+		en cuyo caso devuelve el número 2
+
+	if(enCadena ) mira si estamos en cadena y termina el estado en cade en caso de que p sea un '
+
+int identificador(string palabra){}
+	-mira si la palabra es una palabra reservada
+	-mira si es el inicio de una cadena o comentario
+	-estando n estado de cadena o comentario se encarga de buscar el final de dicha cadena también
+	-si encuentra una palabra reservada activa el estado de reservación (donde se guarda la palabra reservada hasta que el buffer 
+										encuentre otra palabra)
+
+int main(int argc, char* argv[])
+	while
+	-redirije palabras al identificador
+	-si encuentra el inicio de una cadena o comentario se encarga de separarlo del lexeme
+	-asigna los tokens
+	-guarda variables en un buffer 

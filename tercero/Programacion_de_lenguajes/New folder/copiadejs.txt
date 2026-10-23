@@ -1,0 +1,4 @@
+<lexema,+Hola>
+<lexema,Mundo>
+<lexema,22>
+<boolean,->
